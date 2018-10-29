@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Haz tu pedido</title>
+	<meta charset="utf-8">
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<style type="text/css">
+		.jumbotron {
+		 	margin: 30px;
+		}
+	</style>
+	<style>
+body {
+    background-color: lemonchiffon;
+}
+
+h2 {
+    color: darkslategray;
+    text-align: center;
+}
+h1 {
+    color: darkslategray;
+    text-align: center;
+}
+
+p {
+    font-family: serif;
+    font-size: 20px;
+}
+</style>
+</head>
+<body background= "{%static "fondo.jpg" %}"; background-position: center;>
+<div class="container-fluid">
+	<div class="row-fluid">
+			<div class="jumbotron">
+				 <img src="{%static "slogan.jpg" %}" class="img-responsive-center" align="center" > 
+			</div>
+	</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="../">Inicio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="../quienessomos/">Quiénes somos <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="../carta/">Carta <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="../pedidos/">Haz tu pedido <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="../sugerencias/">Sugerencias y comentarios <span class="sr-only">(current)</span></a>
+
+    </div>
+  </div>
+</nav>
+
+
+<left>
+		<div class="row">
+			<div class="jumbotron">
+					<h1>Funcionalidad de esta pestaña: Pedidos </h1>
+					<p>El cliente podrá elegir los platos de un menú virtual y luego seleccionar el método de pago (cobro contra entrega u online). Una vez hecho el pedido, una notificación llegará al restaurante.   </p>
+			</div>
+			
+</left>
+	</div>				
+</div>
+</body>
+</html>

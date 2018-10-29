@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurante Peruano Amor de mis Amores</title>
+	<meta charset="utf-8">
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<style type="text/css">
+		.jumbotron {
+		 	margin: 30px;
+		}
+	</style>
+	<style>
+
+body {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg{
+    
+    height: 100%;
+    
+}
+
+h2 {
+    color: darkslategray;
+    text-align: center;
+}
+h1 {
+    color: darkslategray;
+    text-align: center;
+}
+
+p {
+    font-family: serif;
+    font-size: 20px;
+}
+</style>
+</head>
+
+
+
+<body background= "{%static "fondo.jpg" %}"; background-position: center;>
+<div class="container-fluid">
+	<div class="row-fluid">
+			<div class="jumbotron">
+				 <img src="{%static "slogan.jpg" %}" class="img-responsive-center" align="center" > 
+			</div>
+	</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-contentent-center">
+  <a class="navbar-brand" href="#">Inicio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="quienessomos/">Quiénes somos <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="carta/">Carta <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="pedidos/">Haz tu pedido <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="sugerencias/">Sugerencias y comentarios <span class="sr-only">(current)</span></a>
+
+      
+    </div>
+  </div>
+</nav>
+
+		<left>
+		<div class="row">
+		
+			<div class="jumbotron">
+					<h1>Integrantes grupo 12:</h1>
+<ul>
+  <li>Alejandra Millán</li>
+  <li>Constanza Mendoza</li>
+  <li>Tomás Maturana</li>
+</ul>  
+
+<h1>Tema elegido</h1>
+
+<p>Nombre de la Organización: Restaurante Peruano Amor de mis Amores</br>
+Rubro: Servicio gastronomico, restaurante temático</br>
+Contacto: Cecilia Noya, dueña del restaurante, +56959163356</br></p>
+
+<p>La empresa carece de una plataforma propia para promocionarse y gestionar sus pedidos. Actualmente las ordenes por encargo y entregas se coordinan a través de redes sociales como Whatsapp o mediante comunicación telefónica.</p>
+
+<h1>Motivación</h1>
+
+<p>Modernizar el sistema actual permitirá a nuestra organización nivelarse con la competencia, posicionarse en el mercado online y mejorar su percepción hacia los consumidores.
+
+<p>Se espera que tras la implementación de nuestra propuesta los clientes puedan tener un acceso más cómodo y rápido a información relevante del restaurante, acceder al menú de forma remota, promociones especiales y ordenar a domicilio directamente a través de la interfase.</p>
+
+<h1>Funcionalidad de esta pestaña: Inicio</h1>
+<p>La página tendrá los datos principales del restaurante (teléfono, dirección, etc) además una foto del local.  </p>
+
+
+			</div>
+			</left>
+	</div>				
+</div>
+</body>
+</html>

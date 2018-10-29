@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiénes somos</title>
+	<meta charset="utf-8">
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<style type="text/css">
+		.jumbotron {
+		 	margin: 30px;
+		}
+	</style>
+	<style>
+body {
+    background-color: lemonchiffon;
+}
+
+h2 {
+    color: darkslategray;
+    text-align: center;
+}
+h1 {
+    color: darkslategray;
+    text-align: center;
+}
+
+p {
+    font-family: serif;
+    font-size: 20px;
+}
+</style>
+</head>
+<body background= "{%static "fondo.jpg" %}"; background-position: center;>
+<div class="container-fluid">
+	<div class="row-fluid">
+			<div class="jumbotron">
+				 <img src="{%static "slogan.jpg" %}" class="img-responsive-center" align="center" > 
+			</div>
+	</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="../">Inicio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="../quienessomos/">Quiénes somos <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="../carta/">Carta <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="../pedidos/">Haz tu pedido <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link active" href="../sugerencias/">Sugerencias y comentarios <span class="sr-only">(current)</span></a>
+
+   
+    </div>
+  </div>
+</nav>
+
+<left>
+		<div class="row">
+			<div class="jumbotron">
+					<h1>Historia </h1>
+					<p>El Puente de los Suspiros se inspira en la historia del tradicional puente del barrio de Barranco-Lima, donde al pasar los enamorados por él se dan un beso que perpetuara su amor para siempre.</p>
+<p>Contamos siempre con la creatividad de ofrecer a nuestra clientela diversa variedad de platos internacionales sin perder nuestro estilo en Gastronomía Peruana situada actualmente como una de las mejores del mundo.</p>
+
+<p>Amor de mis Amores les ofrece este romanticismo maravilloso de olores y sabores al paladar chileno donde entrarás como un cliente y saldrás como un amigo.</p>
+<p>Acogedor, cálido e inolvidable en el mejor lugar de Rancagua Centro.</p>
+
+<h1>Quiénes somos</h1>
+
+
+			</div>
+			
+</left>
+	</div>				
+</div>
+</body>
+</html>

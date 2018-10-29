@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+    <title>Resultados encuesta</title>
+</head>
+<body background= "{%static "fondo.jpg" %}"; background-position: center;>
+
+<div class="row-fluid">
+			<div class="jumbotron">
+				 <img src="{%static "slogan.jpg" %}" class="img-responsive-center" align="center" > 
+			</div>
+	</div>
+    <div class="jumbotron">
+       <p>Nombre:</p> 
+       {{ nombre }}
+       
+       <p>Email</p>
+       {{email}}
+       <p>Sugerencias:</p>
+       {{sugerencia}}
+       
+       <h1>Muchas gracias por sus sugerencias</h1>
+    </div>
+</body>
+</html>
